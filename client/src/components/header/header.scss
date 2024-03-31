@@ -1,0 +1,25 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    height: 60px;
+    padding: 0 20px;
+    width: 100%;
+
+    &__logo{
+        h3{
+            color: white;
+            font-weight: 300;
+        }
+    }
+
+    .button {
+        background-color: white;
+        padding: 5px;
+        margin-left:10px;
+        border-radius: 5px;
+
+    }
+
+}
